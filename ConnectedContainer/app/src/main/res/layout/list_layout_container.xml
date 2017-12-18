@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="#ffffff"
+    >
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textViewName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textViewZones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zone A"
+            android:textColor="#000000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textViewLocalisation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textViewJoiningDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#000000"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textViewEtat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textViewVolume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textViewPoid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/buttonEditEmployee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:drawable/ic_menu_edit"
+
+            android:textColor="#000000" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/buttonDeleteEmployee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:drawable/ic_delete"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
